@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .Portfolio,
+        .About,
+        .Contact {
+
+            color: #6b1706e3;
+            text-align: right;
+
+        }
+
+        body {
+            background: #F5ECE1
+        }
+
+        /* .Portfolio {
+            Position: absolute;
+            right: 300px;
+            top: 10px;
+            color: #dfa856;
+            border-bottom: 3px solid #6b1706e3;
+        }
+
+        .About {
+            Position: absolute;
+            right: 400px;
+            top: 10px;
+            color: #dfa856;
+            border-bottom: 3px solid #6b1706e3;
+        }
+
+        .Contact {
+            Position: absolute;
+            right: 200px;
+            top: 10px;
+            color: #dfa856;
+            border-bottom: 3px solid #6b1706e3;
+        } */
+
+
+
+        /* .bodycontainer {
+            border: 3px dashed #6b1706e3;
+            padding: 30px;
+            width: 960px;
+            margin-top: 40px;
+            height: 600px;
+            padding-right: 70px;
+        } */
+
+
+        html {
+            height: 100vh;
+        }
+
+        .photo {
+            object-fit: cover;
+            width: 200px;
+            height: 200px;
+            margin-right: 30px;
+            margin-left: 30px;
+            position: relative;
+            margin-top: 30px;
+            border-radius: 10%;
+        }
+
+        .label {
+            text-align: center;
+            background-color: #6b1706e3;
+            margin-right: 30px;
+            margin-left: 30px;
+            width: 200px;
+            position: relative;
+            bottom: 20px;
+            color: #F5ECE1;
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        /* unvisited link */
+        a:link {
+            color: #6b1706e3;
+        }
+
+        /* visited link */
+        a:visited {
+            color: #6b1706e3;
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: #9e5c69;
+        }
+
+        /* selected link */
+        a:active {
+            color: #9e5c69;
+        }
+    </style>
+</head>
+
+<body class="d-flex flex-column h-100">
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg ">
+
+            <div class="collapse navbar-collapse  " id="navbarNav">
+                <ul class="navbar-nav menu">
+                    <li class="nav-item ">
+                        <a class="nav-link About" href="About.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link Portfolio" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link Contact" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="container bodycontainer flex-shrink-0">
+
+        <div class="row">
+            <div class="col-3 photo">
+                <a href=" https://catherinechika.github.io/Good-Morning-app/"><img class="Sunrise photo"
+                        src="assets/images/sunrise-sky-blue-sunlight-67832.jpeg" alt="goodMorning"
+                        href=" https://catherinechika.github.io/Good-Morning-app/">
+                    <div class="goodMorning label">Good Morning App</div>
+                </a>
+            </div>
+            <div class="col-3 photo">
+                <a href="https://catherinechika.github.io/TriviaGame/"><img class="HungerGames photo"
+                        src="assets/images/hunger games.jpg" alt="TriviaGame"
+                        href="https://catherinechika.github.io/TriviaGame/">
+                    <div class="HungerGames label ">Hunger Games</div>
+                </a>
+            </div>
+
+            <div class="col-3 photo">
+                <a href="https://catherinechika.github.io/unit-4-game/"><img class="CrystalCollectors photo"
+                        src="assets/images/heart.png" alt="Crystal Collectors"
+                        href="https://catherinechika.github.io/unit-4-game/">
+                    <div class="CrystalCollectors label"> Crystal Collectors</div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 photo">
+                <a href="https://www.aeckomirageinc.com"><img class="aecko photo"
+                        src="assets/images/Aecko Mirage Logo.png" alt="Aecko" href="https://www.aeckomirageinc.com/">
+                    <div class="aeckolabel label">AECKO Mirage Inc.</div>
+                </a>
+            </div>
+            <div class="col-3 photo">
+                <a href="https://www.catherinechika.com/"><img class="tiger photo"
+                        src="assets/images/Catherine Chika Tigers 3.JPG" alt="Catherine Chika"
+                        href="https://www.catherinechika.com/">
+                    <div class="tigerlabel label ">Catherine Chika</div>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+    <footer class="footer mt-auto py-3">
+        <div class="container footercont">
+            <span class="text-muted">
+                Created by Catherine Chika
+            </span>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Index</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body {
+            background: black;
+            color: antiquewhite;
+        }
+
+        button {
+            background: black;
+            border-color: #9e5c69;
+            box-shadow: 2px 2px;
+        }
+
+        .name {
+            color: #9e5c69;
+        }
+
+        .container {
+            margin: 300px;
+        }
+
+        #triangle-right,
+        #triangle-right2 {
+            /* width: 400px; */
+            height: 100vh;
+            border-top: 50px solid transparent;
+            border-left: 100px solid #9e5c69;
+            border-bottom: 50px solid transparent;
+            float: left;
+            position: absolute;
+            top: 0;
+            opacity: .6;
+
+        }
+
+        #triangle-right2 {
+            border-left: 100px solid #6b1706e3;
+            left: 20px;
+            top: 20px;
+        }
+
+        #triangle-topright {
+            width: 0;
+            height: 0;
+            border-top: 100px solid #9e5c69;
+            border-left: 100px solid transparent;
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            opacity: .6;
+        }
+
+        #triangle-topright2 {
+            width: 0;
+            height: 0;
+            border-top: 100px solid #6b1706e3;
+            border-left: 100px solid transparent;
+            position: absolute;
+            right: 0px;
+            top: 0px;
+        }
+
+
+        /* unvisited link */
+        a:link {
+            color: #6b1706e3;
+        }
+
+        /* visited link */
+        a:visited {
+            color: #6b1706e3;
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: #9e5c69;
+        }
+
+        /* selected link */
+        a:active {
+            color: #9e5c69;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div id="triangle-right2"></div>
+
+    <div id="triangle-right"></div>
+    <div id="triangle-topright2"></div>
+    <div id="triangle-topright"></div>
+
+
+    <div class="container">
+
+        <div class="row">
+            <h1> Hello, I'm <a class="name" href="About.html">Chika Achukwu </a>. I'm a full-stack web developer and an
+                Environmental Engineer</h1>
+        </div>
+        <div class="row">
+            <button> <a class="work" href="About.html">View My Work</a></button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
